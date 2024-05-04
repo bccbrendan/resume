@@ -28,25 +28,23 @@
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
 \name{Brendan Long} % Your name
-\address{1525 Cat Mountain Trail \\ Keller, Texas 76248}
 \address{(512)~$\cdot$~299~$\cdot$~2285 \\ bccbrendan@gmail.com}
+\address{https://github.com/bccbrendan}
 
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
+\begin{rSection}{Technical Strengths}
 
-{\bf University of Texas, Austin} \hfill {\em May 2012 } \\ 
-M.S. in Software Engineering \\
-Overall GPA: 3.95
-
-{\bf University of Texas, Austin} \hfill {\em May 2010 } \\ 
-B.S. in Electrical and Computer Engineering \\
-Member of Eta Kappa Nu \\
-Overall GPA: 3.89
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Skills & Process evolution through CI/CD, mentoring, training, on-boarding documentation \\
+Languages& C++, Python, Rust, C, C\# \\
+Technology& boost, asio, gsl, gtest, CMake, I3C, UART, SPI, JTAG, XML, flatbuffers, JSON \\
+Tools& Git, Conan, Coverity, Simics, valgrind, CI/CD (Jenkins, GitHub Actions)
+\end{tabular}
 
 \end{rSection}
 
@@ -56,35 +54,45 @@ Overall GPA: 3.89
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Intel}{May 2019 - present}{Senior Software Developer}{Austin, TX}
-\item As product owner for pre-silicon debug tools, gathered requirements, planned features, and balanced work priorities in a group of 4 developers to deliver tools across the entire product roadmap.
-\item Mentored 3-4 engineers through weekly 1:1 tech talks, led several multi-team train sessions on git and intel debug technology. Received 2021 SRA for training new remote team members.
-\item Reduced debug tool costs by adapting tool suite software and hardware to run on Raspberry Pi - received 2020 Project Award.
-\item Developed and verified debug tools and supported record time successful poweron of discrete graphics product. Received 2020 DRA.
-\item Delivered debug tools for next-gen server cpu on-time and with exceptional stability for power-on. Received Q1'2019 DRA.
+\begin{rSubsection}{Intel}{2023 - Present}{Staff Software Engineer}{Austin, TX}
+\item Mentor and train engineers on multiple global teams through group training and pair programming
+\item Curate team work backlog, matching tasks to developers' individual strengths
+\item Set up and manage automatic static code analysis for security, drove reduction of open issues by 90\%
+\item DRA for resolving debug tool and silicon integration problems in 3 next-gen server products, and identifying prevention strategies
+\item 2023 Project awards for successful silicon power-on, for enabling debug tools in record time, and for executing silicon validation test plan 8 weeks ahead of schedule
+\end{rSubsection}
+
+\begin{rSubsection}{Intel}{May 2019 - 2023}{Senior Software Developer}{Austin, TX}
+\item Led team transition to Git through automated migration process, administration, and team trainings
+\item Gathered requirements and led development of debug tools, adapting to new architectures and debug protocols - multiple DRAs and two Project awards
+\item As product owner for pre-silicon debug tools, gathered requirements, planned features, and balanced work priorities of a team to deliver tools across the entire product roadmap
+\item Led several multi-team sessions on Git and silicon debug technologies. Received 2021 SRA for on-boarding new overseas team
+\item Ported debug tool software and custom embedded hardware to Raspberry Pi by for significant savings
+\item Developed and verified debug tools and supported record time power-on of discrete graphics product
+\item Delivered debug tools for next-gen server cpu with exceptional stability - Q1'2019 DRA
 \end{rSubsection}
 
 \begin{rSubsection}{Intel}{June 2012 - April 2019}{Software Developer}{Austin, TX}
-\item Designed and developed software libraries bridging silicon debug software to pre-silicon emulation models. Used to verify new products in every market segment. Received 3 Division Recognition Awards and one Special Recognition Award.
-\item Created in-house software replacement for 3rd party hardware tools in 2018, saving an estimated total \$5.75M; received one DRA and one SRA.
-\item Developed several key features of the software connecting debug tools to Intel's Direct Connect Interrface. Received a Q1'2016 DRA.
-\item Drove company-wide adoption of 3rd party debug tools by developing compatibility software for existing use cases. Developed and provided training for new tools. Received Q2'13 Transformation Award, Q3'13 DRA, Q4'14 DRA, and Q4'14 "Above and Beyond" SRA
+\item Designed and developed software libraries bridging silicon debug software to pre-silicon emulation models in every market segment. Received 3 DRAs and one Special Recognition Award
+\item Created in-house software replacement for 3rd party probes, saving \$5.75M - DRA and SRA
+\item Developed key features of debug tools using Intel's Direct Connect Interrface technology
+\item Drove company-wide adoption of 3rd party debug tools by developing seamless compatibility software for existing use cases. Created and provided training for new tools. Received Q2'13 Transformation Award, Q3'13 DRA, Q4'14 DRA, and Q4'14 ``Above and Beyond'' SRA
 \end{rSubsection}
+%------------------------------------------------
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
+%	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Strengths}
+\begin{rSection}{Education}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & C/C++, Python, C\#, Rust, Java \\
-Protocols, Libraries, \& APIs & JTAG, XML, JSON, gmock, gtest \\
-Tools & git, conan, vim, CI/CD through TeamCity, GitHub, GitLab
-\end{tabular}
+{\bf University of Texas, Austin}  \\ 
+M.S. in Software Engineering; B.S. in Electrical and Computer Engineering \\
 
 \end{rSection}
+
+
 
 \end{document}
